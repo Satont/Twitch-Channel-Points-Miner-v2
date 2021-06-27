@@ -38,4 +38,4 @@ twitch_miner = TwitchChannelPointsMiner(
     )
 )
 twitch_miner.analytics(host="127.0.0.1", port=3000, refresh=5) 
-twitch_miner.mine(followers=False)
+twitch_miner.mine(followers=True)
