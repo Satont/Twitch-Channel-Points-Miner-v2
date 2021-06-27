@@ -11,4 +11,6 @@ RUN apt-get update \
  && apt-get autoremove --assume-yes \
  && rm -rf /var/lib/apt/lists/*
 
+EXPOSE 3000
+
 CMD [ "python", "./run.py" ]
