@@ -37,5 +37,5 @@ twitch_miner = TwitchChannelPointsMiner(
         join_chat=True
     )
 )
-twitch_miner.analytics(host="127.0.0.1", port=3000, refresh=5) 
+twitch_miner.analytics(host="0.0.0.0", port=3000, refresh=5) 
 twitch_miner.mine(followers=True)
